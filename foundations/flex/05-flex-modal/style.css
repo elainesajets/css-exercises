@@ -70,10 +70,9 @@ button.cancel {
 }
 
 /* solution */
-
 .modal {
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; - this doesn't have any effect */
   padding: 15px;
   gap: 15px;
 }
@@ -82,19 +81,15 @@ button.cancel {
   flex-shrink: 0;
 }
 
-.main-body {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.header-text {
   font-size: large;
   font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
